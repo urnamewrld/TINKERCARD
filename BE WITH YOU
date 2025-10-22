@@ -1,0 +1,114 @@
+#include <LiquidCrystal_I2C.h>
+
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+
+void setup() { 
+  lcd.init();
+  lcd.backlight();
+} 
+
+void loop() {
+  lcd.clear();
+  lcd.setCursor(0, 0);               
+  lcd.print(" I'm gonna work");
+  delay(750);
+  lcd.setCursor(0, 1);
+  lcd.print("  on my temper");
+  delay(800);
+  
+  lcd.clear();
+  lcd.setCursor(0, 0);               
+  lcd.print("While you learn");
+  delay(150);
+  lcd.setCursor(0, 1);
+  lcd.print("    to speak");
+  delay(900);
+  
+  lcd.clear();
+  lcd.setCursor(0, 0);               
+  lcd.print("   your mind");
+  delay(700);
+  lcd.setCursor(0, 1);
+  lcd.print("   some more");
+  delay(1000);
+
+  lcd.clear();
+  lcd.setCursor(0, 0);               
+  lcd.print("I'll be more of");
+  delay(1500);
+  lcd.setCursor(0, 1);
+  lcd.print("   a shelter");
+  delay(1500);
+  
+  lcd.clear();
+  lcd.setCursor(0, 0);               
+  lcd.print("  and less of");
+  delay(750);
+  lcd.setCursor(0, 1);
+  lcd.print("    a storm");
+  delay(1000);
+  
+  lcd.clear();
+  lcd.setCursor(0, 0);               
+  lcd.print(" while we both");
+  delay(900);
+  lcd.setCursor(0, 1);
+  lcd.print("   are working");
+  delay(1300);
+  lcd.clear();
+  lcd.setCursor(0, 0);               
+  lcd.print("  on ourselves");
+  delay(900);
+  lcd.setCursor(0, 1);
+  lcd.print("in our own ways");
+  delay(1000);
+  
+  lcd.clear();
+  lcd.setCursor(0, 0);               
+  lcd.print("  I just wanna");
+  delay(900);
+  lcd.setCursor(0, 1);
+  lcd.print(" be WITH YOU :)");
+  delay(1500);
+  
+  lcd.clear();
+  lcd.setCursor(0, 0);               
+  lcd.print("  every single");
+  delay(900);
+  lcd.setCursor(0, 1);
+  lcd.print("     day B)");
+  delay(1500);
+  
+  lcd.clear();
+  lcd.setCursor(0, 0);               
+  lcd.print("   Oh I wanna");
+  delay(900);
+  lcd.setCursor(0, 1);
+  lcd.print(" be WITH YOU :)");
+  delay(1500);
+  
+  lcd.clear();
+  lcd.setCursor(0, 0);               
+  lcd.print("  every single");
+  delay(900);
+  lcd.setCursor(0, 1);
+  lcd.print("     day B)");
+  delay(4000);
+  
+  lcd.clear();
+  lcd.setCursor(0, 0);               
+  lcd.print("  For the rest");
+  delay(900);
+  lcd.setCursor(0, 1);
+  lcd.print("  of our lives");
+  delay(1500);
+  
+  lcd.clear();
+  lcd.setCursor(0, 0);               
+  lcd.print("     :P <3  ");
+  lcd.setCursor(0, 1);               
+  lcd.print(":333333333333333");
+  
+  
+  delay(2500000);
+}
